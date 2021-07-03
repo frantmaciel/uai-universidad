@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="facultades.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencias de la Comunicacion</title>
+</head>
+<body id="grilla">
+    <header id="cienciascomun">    
+        <img src="IMG/logo.jpg">
+        UAI - Universidad Abierta Interamericana
+    </header>
+    <nav class="menu">
+        <a href="index.html#home" class="opciones">
+            <strong>
+                INSTITUCIONAL
+            </strong>
+        </a>
+        <a href="facultades.html#facultades" class="opciones">
+            <strong>
+                FACULTADES
+            </strong>
+        </a>
+        <a href="colegios.html#colegios" class="opciones">
+            <strong>
+                COLEGIOS
+            </strong>
+        </a>
+        <a href="calendario.html#calendario" class="opciones">
+            <strong>
+                INFO ACADEMICA
+            </strong>
+        </a>
+    </nav>
+	<section>
+        <h4>
+            <img src="IMG/comunica.png" class="imgce">
+        </h4>
+    </section>
+	<div>
+		<div class="informacion">
+			<strong>
+				INFORMACION
+			</strong>
+		</div>
+		<p class="descripcion">
+			<strong>
+				La misión de la Facultad de Ciencias de la Comunicación es promover los conocimientos, las competencias y las habilidades que den cuenta del perfil del graduado de cada carrera que la compone. Para ello se activan programas académicos que favorezcan la producción, desarrollo y transferencia del conocimiento.
+				<br>
+				<br>
+				Dicha misión permite la formación de profesionales con pensamiento creativo e innovador, capaces de aplicar conocimientos científicos a los problemas reales que afectan a la comunidad y al mundo profesional que los convoca.
+				<br>
+				<br>
+				Estos profesionales podrán modelizar, con rigor científico, la migración natural que existe entre los elementos de la realidad y los simulacros de la vida que se producen en el registro de comunicación, para poder cumplir así, su misión de aportar a la sociedad del conocimiento los valores de la ética y la ciencia.
+			</strong>
+		</p>
+	</div>
+    <footer>
+		<form action="envia.php" method="POST" enctype="multipart/form-data">
+			<fieldset>
+				<legend>SOLICITA INFORMACION DE INSCRIPCIÓN</legend>
+					<label for="SEDE">Sede:</label>
+					<select name="SEDE">
+						<option value="---">---</option>
+						<option value="ROSARIO">ROSARIO</option>
+						<option value="BUENOS AIRES">BUENOS AIRES</option>
+						<option value="SAN NICOLAS">SAN NICOLAS</option>
+					</select>
+					<br>
+					<br>
+					<label for="nombre">Nombre:</label><input type="text" name="nombre" maxlength="100"><label for="apellido">Apellido:</label><input type="text" name="apellido" maxlength="100">
+					<br>
+					<br>
+					<label for="email">Mail:</label>
+					<input type="text" name="email" maxlength="100">
+					<br>
+					<br>
+					<label for="telefono">Telefono (WhatsApp):</label>
+					<input type="text" name="telefono"	maxlength="100">
+					<br>
+					<br>
+					<label for="carreras">Carreras:</label>
+					<select name="carreras">
+						<option value="---">---</option>
+						<option value="Contador Público">Contador Público</option>
+						<option value="Licenciatura en Administración">Licenciatura en Administración</option>
+						<option value="Licenciatura en Comercialización">Licenciatura en Comercialización</option>
+						<option value="Licenciatura en Comercio Internacional">Licenciatura en Comercio Internacional</option>
+						<option value="Licenciatura en Economía">Licenciatura en Economía</option>
+						<option value="Licenciatura en Diseño Grafico">Licenciatura en Diseño Grafico</option>
+						<option value="Licenciatura en Periodismo">Licenciatura en Periodismo</option>
+						<option value="Licenciatura en Producción y Realización Audiovisual">Licenciatura en Producción y Realización Audiovisual</option>
+						<option value="Licenciatura en Publicidad">Licenciatura en Publicidad</option>
+						<option value="Arquitectura">Arquitectura</option>
+						<option value="Licenciatura en Diseño de Interiores">Licenciatura en Diseño de Interiores</option>
+						<option value="Doctorado en Arquitectura y Urbanismo">Doctorado en Arquitectura y Urbanismo</option>
+						<option value="Licenciatura en Ciencias de la Educación">Licenciatura en Ciencias de la Educación</option>
+						<option value="Licenciatura en Educacion Inicial">Licenciatura en Educacion Inicial</option>
+						<option value="Licenciatura en Gestión de Instituciones Educativas">Licenciatura en Gestión de Instituciones Educativas</option>
+						<option value="Licenciatura en Psicopedagogía">Licenciatura en Psicopedagogía</option>
+						<option value="Abogacía">Abogacía</option>
+						<option value="Licenciatura en Ciencia Política">Licenciatura en Ciencia Política</option>
+						<option value="Martillero Público, Corredor y Administrador de Consorcio">Martillero Público, Corredor y Administrador de Consorcio</option>
+					</select>
+					<br>
+					<br>
+					<label>
+						Acepto terminos y condiciones
+					</label>
+					<input type="checkbox" value="1">
+					<br>
+					<br>
+					<input type="submit" value="Enviar Solicitud">
+					<input type="reset" value="Limpiar formulario">
+			</fieldset>
+		</form>
+		<br>
+		<table width="100%" class="form">
+			<th class="redes">
+				<a href="https://www.instagram.com/uai_univ/">INSTAGRAM</a>
+			</th>
+			<th class="redes">
+				<a href="https://www.facebook.com/uai.univ">FACEBOOK</a>
+			</th>
+			<th class="redes">
+				<a href="https://twitter.com/UAI_Univ">TWITTER</a>
+			</th>
+			<th class="redes">
+				EMAIL
+			</th>
+			<th class="redes">
+				<a href="https://www.youtube.com/user/UAIelfuturososvos">YOUTUBE</a>
+			</th>
+		</table>
+	</footer>
+</body>
+</html>

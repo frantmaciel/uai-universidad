@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="facultades.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencias Economicas</title>
+</head>
+<body id="grilla">
+    <header id="cienciaseconomicas">    
+        <img src="IMG/logo.jpg">
+        UAI - Universidad Abierta Interamericana
+    </header>
+    <nav class="menu">
+        <a href="index.html#home" class="opciones">
+            <strong>
+                INSTITUCIONAL
+            </strong>
+        </a>
+        <a href="facultades.html#facultades" class="opciones">
+            <strong>
+                FACULTADES
+            </strong>
+        </a>
+        <a href="colegios.html#colegios" class="opciones">
+            <strong>
+                COLEGIOS
+            </strong>
+        </a>
+        <a href="calendario.html#calendario" class="opciones">
+            <strong>
+                INFO ACADEMICA
+            </strong>
+        </a>
+    </nav>
+	<section>
+        <h4>
+            <img src="IMG/economicas.png" class="imgce">
+        </h4>
+    </section>
+	<div>
+		<div class="informacion">
+			<strong>
+				INFORMACION
+			</strong>
+		</div>
+		<p class="descripcion">
+			<strong>
+				Nuestra Facultad tiene por finalidad la formación de líderes empresarios, capaces de actuar con excelencia en contexto actual de los negocios, produciendo nuevos conocimientos que contribuyan al desarrollo de la organización y a la mejora general de la actividad productiva.
+				<br>
+				<br>
+				Procuramos la formación de un profesional ético, reflexivo, que se visualice a si mismo como un agente de cambio y utilice el conocimiento como un mecanismo privilegiado para el progreso del conjunto de la sociedad.
+			</strong>
+		</p>
+	</div>
+    <footer>
+		<form action="envia.php" method="POST" enctype="multipart/form-data">
+			<fieldset>
+				<legend>SOLICITA INFORMACION DE INSCRIPCIÓN</legend>
+					<label for="SEDE">Sede:</label>
+					<select name="SEDE">
+						<option value="---">---</option>
+						<option value="ROSARIO">ROSARIO</option>
+						<option value="BUENOS AIRES">BUENOS AIRES</option>
+						<option value="SAN NICOLAS">SAN NICOLAS</option>
+					</select>
+					<br>
+					<br>
+					<label for="nombre">Nombre:</label><input type="text" name="nombre" maxlength="100"><label for="apellido">Apellido:</label><input type="text" name="apellido" maxlength="100">
+					<br>
+					<br>
+					<label for="email">Mail:</label>
+					<input type="text" name="email" maxlength="100">
+					<br>
+					<br>
+					<label for="telefono">Telefono (WhatsApp):</label>
+					<input type="text" name="telefono"	maxlength="100">
+					<br>
+					<br>
+					<label for="carreras">Carreras:</label>
+					<select name="carreras">
+						<option value="---">---</option>
+						<option value="Contador Público">Contador Público</option>
+						<option value="Licenciatura en Administración">Licenciatura en Administración</option>
+						<option value="Licenciatura en Comercialización">Licenciatura en Comercialización</option>
+						<option value="Licenciatura en Comercio Internacional">Licenciatura en Comercio Internacional</option>
+						<option value="Licenciatura en Economía">Licenciatura en Economía</option>
+						<option value="Licenciatura en Diseño Grafico">Licenciatura en Diseño Grafico</option>
+						<option value="Licenciatura en Periodismo">Licenciatura en Periodismo</option>
+						<option value="Licenciatura en Producción y Realización Audiovisual">Licenciatura en Producción y Realización Audiovisual</option>
+						<option value="Licenciatura en Publicidad">Licenciatura en Publicidad</option>
+						<option value="Arquitectura">Arquitectura</option>
+						<option value="Licenciatura en Diseño de Interiores">Licenciatura en Diseño de Interiores</option>
+						<option value="Doctorado en Arquitectura y Urbanismo">Doctorado en Arquitectura y Urbanismo</option>
+						<option value="Licenciatura en Ciencias de la Educación">Licenciatura en Ciencias de la Educación</option>
+						<option value="Licenciatura en Educacion Inicial">Licenciatura en Educacion Inicial</option>
+						<option value="Licenciatura en Gestión de Instituciones Educativas">Licenciatura en Gestión de Instituciones Educativas</option>
+						<option value="Licenciatura en Psicopedagogía">Licenciatura en Psicopedagogía</option>
+						<option value="Abogacía">Abogacía</option>
+						<option value="Licenciatura en Ciencia Política">Licenciatura en Ciencia Política</option>
+						<option value="Martillero Público, Corredor y Administrador de Consorcio">Martillero Público, Corredor y Administrador de Consorcio</option>
+					</select>
+					<br>
+					<br>
+					<label>
+						Acepto terminos y condiciones
+					</label>
+					<input type="checkbox" value="1">
+					<br>
+					<br>
+					<input type="submit" value="Enviar Solicitud">
+					<input type="reset" value="Limpiar formulario">
+			</fieldset>
+		</form>
+		<br>
+		<table width="100%" class="form">
+			<th class="redes">
+				<a href="https://www.instagram.com/uai_univ/">INSTAGRAM</a>
+			</th>
+			<th class="redes">
+				<a href="https://www.facebook.com/uai.univ">FACEBOOK</a>
+			</th>
+			<th class="redes">
+				<a href="https://twitter.com/UAI_Univ">TWITTER</a>
+			</th>
+			<th class="redes">
+				EMAIL
+			</th>
+			<th class="redes">
+				<a href="https://www.youtube.com/user/UAIelfuturososvos">YOUTUBE</a>
+			</th>
+		</table>
+	</footer>
+</body>
+</html>

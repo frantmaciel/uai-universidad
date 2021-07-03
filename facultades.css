@@ -1,0 +1,150 @@
+body{
+    background: #744044;
+    font-family: 'Inria Sans', sans-serif;
+	width: 1300px;
+	margin: 25px;
+}
+#grilla{
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"nav nav nav"
+    "section section section"
+	"div div div"
+	"footer footer footer";
+	grid-template-rows: 250px;
+	grid-template-columns: 20% auto 15%;
+	align-content: space-around;
+}
+header{
+    width: 100%;
+	background-color: white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 5;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	grid-area: header;
+}
+body header img{
+    width: 150px;
+	position: relative;
+	top: 40px;
+}
+a{
+	color: black;
+}
+/*aca empieza la barra de nav*/
+nav{
+	grid-area: nav;
+}
+.menu{
+	width:1290px;
+	background-position: center;
+	background-color: #3E428C;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.opciones{
+	background-color: #CDCFE8;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	margin: 10px;
+	text-decoration: none;
+}
+/*aca termina la barra del menu*/
+div{
+	grid-area: div;
+}
+section{
+    grid-area: section;
+}
+body form{
+	background: #3E428C;
+	color: white;
+	border:#CDCFE8 solid;
+	border-radius: 5px;
+	padding: 5px;
+}
+.form{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+table th a{
+	text-decoration: none
+}
+footer{
+	grid-area: footer;
+}
+.tabla{
+	margin-top: 370px;
+	margin-bottom: 20px
+}
+.p{
+	width: 95%;
+	background: ghostwhite;
+	padding: 10px 10px 10px 10px;
+	border-bottom-right-radius: 30px;
+	border-left-style: solid;
+    border-left-color: #744044;
+}
+.redes{
+	background-color: white;
+	border: none;
+	color: black;
+	font-size: 20px;
+}
+fieldset{
+	border: none;
+}
+legend{
+	font-size: 25px;
+	text-decoration: underline;
+}
+/*HTMLS DE CADA FACULTAD*/
+h4{
+	color: white;
+	text-align: center;
+	background-image: url(IMG/facultades.jpg);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-radius: 10px;
+}
+.imgce{
+	height: 150px;
+}
+.informacion{
+	width: 98.8%;
+    color: #744044;
+    font-size: 30px;
+    text-align: left;
+    background: #CDCFE8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left-style: solid;
+    border-left-color: #3E428C;
+    border-top-right-radius: 20px;
+    padding-left: 10px;
+}
+.descripcion{
+    width: 98%;
+	background: ghostwhite;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-left-style: solid;
+    border-left-color: #FAEF12;
+	line-height: 1.5;
+}

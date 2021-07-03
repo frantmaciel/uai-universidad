@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="general.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Abierta Interamericana</title>
+</head>
+<body id="grilla">
+    <header id="institucional">    
+        <img src="IMG/logo.jpg">
+        UAI - Universidad Abierta Interamericana
+    </header>
+    <nav class="menu">
+        <a href="#institucional" class="opciones">
+            <strong>
+                INSTITUCIONAL
+            </strong>
+        </a>
+        <a href="facultades.html#facultades" class="opciones">
+            <strong>
+                FACULTADES
+            </strong>
+        </a>
+        <a href="colegios.html#colegios" class="opciones">
+            <strong>
+                COLEGIOS
+            </strong>
+        </a>
+        <a href="calendario.html#calendario" class="opciones">
+            <strong>
+                INFO ACADEMICA
+            </strong>
+        </a>
+    </nav>
+    <div>
+        <h2>
+            ¿QUIENES SOMOS?
+        </h2>
+            <div class="info">
+                <strong>
+                    ORIGENES - Fundada en 1995, cuenta con acreditaciones de organizaciones Nacionales e Internacionales
+                </strong>
+            </div>
+                <p>
+                    <strong>
+                        “La UAI, Universidad Abierta Interamericana, integra la red de instituciones Vanguardia Educativa "VANEDUC", entidades no confesionales dedicadas a la docencia e investigación educativa desde 1942. Con más de siete décadas de trayectoria, dichas instituciones poseen 1.500.000 m2 de infraestructura, conformados por veinte Colegios, Gimnasios, Campos de Deportes, Oficinas, y la Universidad. Equipados con tecnología de avanzada, ofrece un Sistema de Bibliotecas (Biblioteca Central, Biblioteca Regional en Rosario y 7 bibliotecas de Localizaciones), videotecas, más de treinta laboratorios de Informática multimedia, equipados con más de 3.500 PC, conectadas en una red con intranet y con salida a internet, laboratorios de Medicina, Anatomía, Bioquímica, Patología, Histología, Microbiología, Electromagnetismo e Idiomas y un estudio de Televisión. Se dispone además de Hospital Universitario en Buenos Aires y equivalente en Rosario, así como con infraestructura y equipamiento para investigación en los Centros de Altos Estudios (en Salud, Educación, Estudios Globales, Tecnología Informática, Investigación Clínica Farmacológica, de Inmunocomprometidos y Bioterio). Conforman su personal permanente más de 3.500 educadores altamente capacitados que reciben actualización constante en cada área del conocimiento.
+                        <br>
+                        <br>
+                        La UAI, fundada en 1995, cuenta con acreditaciones de organizaciones Nacionales e Internacionales no gubernamentales de educación entre ellas: ADEEPRA (Asociación de Entidades Educativas Privadas Argentinas), FAELA (Federación de Asociaciones Educativas de Latinoamérica y el Caribe), COMED (Confederación Mundial de Educación) y culmina el ciclo de un proyecto educativo que abarca desde la educación maternal hasta la educación superior universitaria y de postgrados. Actualmente la Universidad cuenta con 22.000 alumnos y sólo en el área de Sistemas, con 1.900 alumnos matriculados, en cuatro de sus Sedes.
+                    </strong>
+                </p>
+        <br>
+            <div class="info">
+                <strong>
+                    MISIÓN
+                </strong>
+            </div>
+                <p>
+                    <strong>
+                        La Universidad Abierta Interamericana, fundada en 1995, desarrolla un Proyecto Académico, que manifiesta el compromiso con la educación en un camino de esfuerzo permanente para dar respuestas a las demandas sociales, culturales y políticas que los tiempos actuales requieren. La UAI es una universidad privada, laica, autónoma, plural y sin fines de lucro.
+                        <br>
+                        <br>
+						Su misión es Desarrollar una propuesta educativa inclusiva, de calidad y pertinente con las demandas del desarrollo sostenible, la democratización del conocimiento y los valores humanísticos, a través de un modelo educativo que promueva la formación de profesionales competentes para transformar realidades con responsabilidad social.
+                    </strong>
+                </p>
+        <br>
+            <div class="info">
+                <strong>
+                    MISIÓN
+                </strong>
+            </div>
+                <p>
+                    <strong>
+                        La Universidad Abierta Interamericana, fundada en 1995, desarrolla un Proyecto Académico, que manifiesta el compromiso con la educación en un camino de esfuerzo permanente para dar respuestas a las demandas sociales, culturales y políticas que los tiempos actuales requieren. La UAI es una universidad privada, laica, autónoma, plural y sin fines de lucro.
+                        <br>
+                        <br>
+                        Su misión es Desarrollar una propuesta educativa inclusiva, de calidad y pertinente con las demandas del desarrollo sostenible, la democratización del conocimiento y los valores humanísticos, a través de un modelo educativo que promueva la formación de profesionales competentes para transformar realidades con responsabilidad social.
+                    </strong>
+                </p>
+        <br>        
+    </div>
+    <br>
+    <footer>
+        <form action="envia.php" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>SOLICITA INFORMACION DE INSCRIPCIÓN</legend>
+                    <label for="SEDE">Sede:</label>
+                    <select name="SEDE">
+                        <option value="---">---</option>
+                        <option value="ROSARIO">ROSARIO</option>
+                        <option value="BUENOS AIRES">BUENOS AIRES</option>
+                        <option value="SAN NICOLAS">SAN NICOLAS</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="nombre">Nombre:</label><input type="text" name="nombre" maxlength="100"><label for="apellido">Apellido:</label><input type="text" name="apellido" maxlength="100">
+                    <br>
+                    <br>
+                    <label for="email">Mail:</label>
+                    <input type="text" name="email" maxlength="100">
+                    <br>
+                    <br>
+                    <label for="telefono">Telefono (WhatsApp):</label>
+                    <input type="text" name="telefono"	maxlength="100">
+                    <br>
+                    <br>
+                    <label for="carreras">Carreras:</label>
+                    <select name="carreras">
+                        <option value="---">---</option>
+                        <option value="Contador Público">Contador Público</option>
+                        <option value="Licenciatura en Administración">Licenciatura en Administración</option>
+                        <option value="Licenciatura en Comercialización">Licenciatura en Comercialización</option>
+                        <option value="Licenciatura en Comercio Internacional">Licenciatura en Comercio Internacional</option>
+                        <option value="Licenciatura en Economía">Licenciatura en Economía</option>
+                        <option value="Licenciatura en Diseño Grafico">Licenciatura en Diseño Grafico</option>
+                        <option value="Licenciatura en Periodismo">Licenciatura en Periodismo</option>
+                        <option value="Licenciatura en Producción y Realización Audiovisual">Licenciatura en Producción y Realización Audiovisual</option>
+                        <option value="Licenciatura en Publicidad">Licenciatura en Publicidad</option>
+                        <option value="Arquitectura">Arquitectura</option>
+                        <option value="Licenciatura en Diseño de Interiores">Licenciatura en Diseño de Interiores</option>
+                        <option value="Doctorado en Arquitectura y Urbanismo">Doctorado en Arquitectura y Urbanismo</option>
+                        <option value="Licenciatura en Ciencias de la Educación">Licenciatura en Ciencias de la Educación</option>
+                        <option value="Licenciatura en Educacion Inicial">Licenciatura en Educacion Inicial</option>
+                        <option value="Licenciatura en Gestión de Instituciones Educativas">Licenciatura en Gestión de Instituciones Educativas</option>
+                        <option value="Licenciatura en Psicopedagogía">Licenciatura en Psicopedagogía</option>
+                        <option value="Abogacía">Abogacía</option>
+                        <option value="Licenciatura en Ciencia Política">Licenciatura en Ciencia Política</option>
+                        <option value="Martillero Público, Corredor y Administrador de Consorcio">Martillero Público, Corredor y Administrador de Consorcio</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>
+                        Acepto terminos y condiciones
+                    </label>
+                    <input type="checkbox" value="1">
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar Solicitud">
+                    <input type="reset" value="Limpiar formulario">
+            </fieldset>
+        </form>
+        <br>
+        <table width="100%" class="form">
+                <th class="redes">
+                    <a href="https://www.instagram.com/uai_univ/">INSTAGRAM</a>
+                </th>
+                <th class="redes">
+                    <a href="https://www.facebook.com/uai.univ">FACEBOOK</a>
+                </th>
+                <th class="redes">
+                    <a href="https://twitter.com/UAI_Univ">TWITTER</a>
+                </th>
+                <th class="redes">
+                    EMAIL
+                </th>
+                <th class="redes">
+                    <a href="https://www.youtube.com/user/UAIelfuturososvos">YOUTUBE</a>
+                </th>
+        </table>
+    </footer>    
+</body>
+</html>
